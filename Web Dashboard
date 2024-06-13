@@ -1,0 +1,13 @@
+This system connects the ESP8266 to the Blynk platform, reads temperature and humidity data from the DHT11 sensor, transfers this data to Blynk's virtual pins, and enables viewing of the data using the Blynk app. Ensuring that the Blynk project is set up with virtual pins (V0 and V1) that correspond to the visualisation of temperature and humidity data.
+Setup Blynk
+
+1. The Blynk website url https://blynk.io. is used to create a fresh account.
+
+2. The "Create New template" option was chosen after logging in.
+
+3. The project's name was titiled "temperature and humidity monitor" and the ESP8266 hardware device was chosen as the hardware device, with WiFi as the connection type.
+4. Temperature and humidity data streams were named on the data stream tab, and the virtual pins for each were chosen as V0 and V1, respectively. The appropriate min and max values were selected as 0 and 100 for both, with degrees Celsius and % as the chosen units.
+5. Two gauges are chosen in the web dashboard tab, with V0 and V1 as the corresponding Data streams.
+6. A token of authentication is acquired.
+7. In the ESP8266 code, the phrase "Authentication Token." is copied and used.
+8. After that, a comparable dashboard is made for the mobile app.
