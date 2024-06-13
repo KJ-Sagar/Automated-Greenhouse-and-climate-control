@@ -1,0 +1,1 @@
+The automated IoT-based greenhouse exhaust system was designed to control the airflow, humidity, and temperature inside the greenhouse using a code that relies on a DTH Sensor to determine the humidity and temperature. The sensor measures temperature and humidity in the greenhouse and uses a fan to moderate the humidity levels.
